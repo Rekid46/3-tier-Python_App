@@ -22,3 +22,8 @@ Apps count their view pages, as well as a total (recorded in REDIS).
                     v
                    REDIS
 ```
+## Usage
+
+```
+docker-compose up -d --scale app=3
+```
